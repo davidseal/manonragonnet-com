@@ -37,7 +37,6 @@
 }
 
 .avatar-img{
-  background-color: red;
   width:150px;
   height:150px;
   display: block;
@@ -148,10 +147,9 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #222;
-  background-color: #eaf1f6;
-
 /*davidseal*/
+  color: #4a5055;
+  background-color: #eaf1f6;
   display: block;
   height: 100%;
   }
@@ -432,7 +430,11 @@ there.
 
 
 /* Larger than mobile */
-@media (min-width: 400px) {}
+@media (min-width: 400px) {
+  .outerbox {
+    border: 10px solid #fff;
+  }
+}
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {}
