@@ -467,23 +467,18 @@ there.
   .bio-p {
     width: 365px;
   }
-
-  .avatar-img {
-    width: 100px;
-    height: 100px;
-  }
 }
 
 /* Larger than tablet */
-@media (min-width: 750px) {
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {
   .avatar-img {
     width: 150px;
     height: 150px;
   }
 }
-
-/* Larger than desktop */
-@media (min-width: 1000px) {}
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
