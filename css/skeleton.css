@@ -72,7 +72,7 @@ text-align: center;
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
-    width: 85%;
+    width: 90%;
     padding: 0; }
 }
 
@@ -439,6 +439,9 @@ there.
 @media (min-width: 400px) {
   .outerbox {
     border: 10px solid #fff;
+  }
+  .bio-p {
+    width: auto;
   }
 }
 
