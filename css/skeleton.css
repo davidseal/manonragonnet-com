@@ -32,6 +32,7 @@
   border: 20px solid #fff;
   width: 100%;
   height: 100vh;
+  min-height: 440px;
   position: relative;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -53,12 +54,16 @@
   margin-right: auto;
 }
 
+.container {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
-
-text-align: center;
-
   position: relative;
   width: 100%;
   max-width: 960px;
@@ -445,6 +450,11 @@ there.
   .bio-p {
     width: auto;
   }
+
+  .avatar-img {
+    width: 100px;
+    height: 100px;
+  }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
@@ -454,7 +464,12 @@ there.
   }
 
   .bio-p {
-    width: 370px;
+    width: 365px;
+  }
+
+  .avatar-img {
+    width: 150px;
+    height: 150px;
   }
 }
 
