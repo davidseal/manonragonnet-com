@@ -191,9 +191,9 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB; }
+  color: #ed306e; }
 a:hover {
-  color: #0FA0CE; }
+  color: #dd346c; }
 
 
 /* Buttons
@@ -443,7 +443,11 @@ there.
 }
 
 /* Larger than phablet (also point when grid becomes active) */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  .outerbox {
+    border: 20px solid #fff;
+  }
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {}
