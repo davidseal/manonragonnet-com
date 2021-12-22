@@ -453,12 +453,19 @@ there.
     width: 125px;
     height: 125px;
   }
+  
+  .bio-p {
+    width: 350px;
+  }
 }
 
 /* Larger than phablet (also point when grid becomes active) */
 @media (min-width: 550px) {
   .outerbox {
     border: 20px solid #fff;
+  }
+  .bio-p {
+    width: 350px;
   }
 }
 
@@ -471,6 +478,7 @@ there.
     width: 200px;
     height: 200px;
   }
+  
 }
 
 /* Larger than Desktop HD */
