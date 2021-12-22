@@ -448,9 +448,6 @@ there.
   .outerbox {
     border: 10px solid #fff;
   }
-  .bio-p {
-    width: auto;
-  }
 
   .avatar-img {
     width: 125px;
@@ -462,10 +459,6 @@ there.
 @media (min-width: 550px) {
   .outerbox {
     border: 20px solid #fff;
-  }
-
-  .bio-p {
-    width: 365px;
   }
 }
 
